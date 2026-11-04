@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="scriptImports" type="xstring" value="// Your custom imports:%%00010"/>
+        <entry key="scriptFields" type="xstring" value="// Your custom variables:%%00010"/>
+        <entry key="scriptBody" type="xstring" value="// Enter your code here:%%00010double RW1= Math.min(Math.min(c_Application_Weak, c_Interview_A),c_Motivation_Low);%%00010double RW2= Math.min(Math.min(c_Application_Weak,c_Interview_B),c_Motivation_Low);%%00010double RW3= Math.min(Math.min(c_Application_Weak, c_Interview_C),c_Motivation_Medium);%%00010double RW4= Math.min(Math.min(c_Application_Weak,c_Interview_D),c_Motivation_Medium);%%00010%%00010double RM1= Math.min(Math.min(c_Application_Moderate, c_Interview_A),c_Motivation_Low);%%00010double RM2= Math.min(Math.min(c_Application_Moderate,c_Interview_B),c_Motivation_Medium);%%00010double RM3= Math.min(Math.min(c_Application_Moderate, c_Interview_C),c_Motivation_Medium);%%00010double RM4= Math.min(Math.min(c_Application_Moderate,c_Interview_D),c_Motivation_High);%%00010%%00010double RG1= Math.min(Math.min(c_Application_Good, c_Interview_A),c_Motivation_Medium);%%00010double RG2= Math.min(Math.min(c_Application_Good,c_Interview_B),c_Motivation_Medium);%%00010double RG3= Math.min(Math.min(c_Application_Good, c_Interview_C),c_Motivation_High);%%00010double RG4= Math.min(Math.min(c_Application_Good,c_Interview_D),c_Motivation_Low);%%00010%%00010double RS1= Math.min(Math.min(c_Application_strong, c_Interview_A),c_Motivation_Medium);%%00010double RS2= Math.min(Math.min(c_Application_strong,c_Interview_B),c_Motivation_High);%%00010double RS3= Math.min(Math.min(c_Application_strong, c_Interview_C),c_Motivation_High);%%00010double RS4= Math.min(Math.min(c_Application_strong,c_Interview_D),c_Motivation_High);%%00010%%00010out_R_w1 =RW1;%%00010out_R_w2 =RW2;%%00010out_R_w3 =RW3;%%00010out_R_w4 =RW4;%%00010out_R_m1 =RM1; %%00010out_R_m2 = RM2;%%00010out_R_m3 = RM3;%%00010out_R_m4 = RM4;%%00010out_R_g1 =RG1; %%00010out_R_g2 = RG2;%%00010out_R_g3 = RG3;%%00010out_R_g4 = RG4;%%00010out_R_s1 = RS1;%%00010out_R_s2 = RS2;%%00010out_R_s3 = RS3;%%00010out_R_s4 = RS4;%%00010%%00010%%00010%%00010"/>
+        <config key="jarFiles">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="outCols">
+            <entry key="array-size" type="xint" value="16"/>
+            <config key="0">
+                <entry key="Name" type="xstring" value="R_w1"/>
+                <entry key="JavaName" type="xstring" value="out_R_w1"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="1">
+                <entry key="Name" type="xstring" value="R_w2"/>
+                <entry key="JavaName" type="xstring" value="out_R_w2"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="2">
+                <entry key="Name" type="xstring" value="R_w3"/>
+                <entry key="JavaName" type="xstring" value="out_R_w3"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="3">
+                <entry key="Name" type="xstring" value="R_w4"/>
+                <entry key="JavaName" type="xstring" value="out_R_w4"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="4">
+                <entry key="Name" type="xstring" value="R_m1"/>
+                <entry key="JavaName" type="xstring" value="out_R_m1"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="5">
+                <entry key="Name" type="xstring" value="R_m2"/>
+                <entry key="JavaName" type="xstring" value="out_R_m2"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="6">
+                <entry key="Name" type="xstring" value="R_m3"/>
+                <entry key="JavaName" type="xstring" value="out_R_m3"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="7">
+                <entry key="Name" type="xstring" value="R_m4"/>
+                <entry key="JavaName" type="xstring" value="out_R_m4"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="8">
+                <entry key="Name" type="xstring" value="R_g1"/>
+                <entry key="JavaName" type="xstring" value="out_R_g1"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="9">
+                <entry key="Name" type="xstring" value="R_g3"/>
+                <entry key="JavaName" type="xstring" value="out_R_g3"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="10">
+                <entry key="Name" type="xstring" value="R_g4"/>
+                <entry key="JavaName" type="xstring" value="out_R_g4"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="11">
+                <entry key="Name" type="xstring" value="R_g2"/>
+                <entry key="JavaName" type="xstring" value="out_R_g2"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="12">
+                <entry key="Name" type="xstring" value="R_s1"/>
+                <entry key="JavaName" type="xstring" value="out_R_s1"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="13">
+                <entry key="Name" type="xstring" value="R_s2"/>
+                <entry key="JavaName" type="xstring" value="out_R_s2"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="14">
+                <entry key="Name" type="xstring" value="R_s3"/>
+                <entry key="JavaName" type="xstring" value="out_R_s3"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="15">
+                <entry key="Name" type="xstring" value="R_s4"/>
+                <entry key="JavaName" type="xstring" value="out_R_s4"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <config key="outVars">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="inCols">
+            <entry key="array-size" type="xint" value="13"/>
+            <config key="0">
+                <entry key="Name" type="xstring" value="Application_Weak"/>
+                <entry key="JavaName" type="xstring" value="c_Application_Weak"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="1">
+                <entry key="Name" type="xstring" value="Interview_A"/>
+                <entry key="JavaName" type="xstring" value="c_Interview_A"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="2">
+                <entry key="Name" type="xstring" value="Interview_B"/>
+                <entry key="JavaName" type="xstring" value="c_Interview_B"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="3">
+                <entry key="Name" type="xstring" value="Interview_C"/>
+                <entry key="JavaName" type="xstring" value="c_Interview_C"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="4">
+                <entry key="Name" type="xstring" value="Interview_D"/>
+                <entry key="JavaName" type="xstring" value="c_Interview_D"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="5">
+                <entry key="Name" type="xstring" value="Application"/>
+                <entry key="JavaName" type="xstring" value="c_Application"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="6">
+                <entry key="Name" type="xstring" value="Interview"/>
+                <entry key="JavaName" type="xstring" value="c_Interview"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="7">
+                <entry key="Name" type="xstring" value="Application_Moderate"/>
+                <entry key="JavaName" type="xstring" value="c_Application_Moderate"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="8">
+                <entry key="Name" type="xstring" value="Application_Good"/>
+                <entry key="JavaName" type="xstring" value="c_Application_Good"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="9">
+                <entry key="Name" type="xstring" value="Application_strong"/>
+                <entry key="JavaName" type="xstring" value="c_Application_strong"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="10">
+                <entry key="Name" type="xstring" value="Motivation_Low"/>
+                <entry key="JavaName" type="xstring" value="c_Motivation_Low"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="11">
+                <entry key="Name" type="xstring" value="Motivation_Medium"/>
+                <entry key="JavaName" type="xstring" value="c_Motivation_Medium"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="12">
+                <entry key="Name" type="xstring" value="Motivation_High"/>
+                <entry key="JavaName" type="xstring" value="c_Motivation_High"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+        </config>
+        <config key="inVars">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="version" type="xstring" value="version 1.x"/>
+        <entry key="templateUUID" type="xstring" isnull="true" value=""/>
+        <entry key="runOnExecute" type="xboolean" value="false"/>
+        <config key="bundles">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.jsnippet.JavaSnippetNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Java Snippet"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.9.0.v202511130855"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Javasnippet"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.javasnippet.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.9.0.v202511130855"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Java Snippet"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 12, Cols: 30"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="ecd7ae9f-d807-43f1-94a4-45e78d417b04"/>
+    </config>
+</config>

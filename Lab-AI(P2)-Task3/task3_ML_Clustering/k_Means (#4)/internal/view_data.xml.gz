@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="8"/>
+    <entry key="ignoredColumns" type="xint" value="1"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xint" value="200"/>
+        <entry key="1" type="xint" value="400"/>
+        <entry key="2" type="xint" value="200"/>
+        <entry key="3" type="xint" value="99"/>
+        <entry key="4" type="xint" value="101"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="7.2986717511627175"/>
+        <entry key="1" type="xdouble" value="1.9172302886145778"/>
+        <entry key="2" type="xdouble" value="4.165657115606575"/>
+        <entry key="3" type="xdouble" value="-9.471708283385482"/>
+        <entry key="4" type="xdouble" value="9.384287267294457"/>
+        <entry key="5" type="xdouble" value="6.659214794935208"/>
+        <entry key="6" type="xdouble" value="-5.791975242885388"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="-6.79450633578175"/>
+        <entry key="1" type="xdouble" value="-5.307012927124749"/>
+        <entry key="2" type="xdouble" value="-3.26745613756486"/>
+        <entry key="3" type="xdouble" value="-0.224236009487514"/>
+        <entry key="4" type="xdouble" value="2.1806182914387047"/>
+        <entry key="5" type="xdouble" value="-5.113410576890547"/>
+        <entry key="6" type="xdouble" value="1.196895825889788"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="1.7900074399656822"/>
+        <entry key="1" type="xdouble" value="-9.123427272694661"/>
+        <entry key="2" type="xdouble" value="2.167900199743181"/>
+        <entry key="3" type="xdouble" value="-6.696338395396548"/>
+        <entry key="4" type="xdouble" value="-8.785830086417038"/>
+        <entry key="5" type="xdouble" value="9.059640260236545"/>
+        <entry key="6" type="xdouble" value="9.18957501150341"/>
+    </config>
+    <config key="kMeansCluster3">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="-2.281320034125765"/>
+        <entry key="1" type="xdouble" value="8.981909146365219"/>
+        <entry key="2" type="xdouble" value="4.551537404371336"/>
+        <entry key="3" type="xdouble" value="1.2926315758507283"/>
+        <entry key="4" type="xdouble" value="-6.904404503323349"/>
+        <entry key="5" type="xdouble" value="-7.359585915406749"/>
+        <entry key="6" type="xdouble" value="-9.074187270518696"/>
+    </config>
+    <config key="kMeansCluster4">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="-2.859154608737684"/>
+        <entry key="1" type="xdouble" value="8.953407538222729"/>
+        <entry key="2" type="xdouble" value="4.926225748217014"/>
+        <entry key="3" type="xdouble" value="2.4015088510357447"/>
+        <entry key="4" type="xdouble" value="-6.674950386334106"/>
+        <entry key="5" type="xdouble" value="-6.245624610677824"/>
+        <entry key="6" type="xdouble" value="-8.52606524150612"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="8"/>
+        <entry key="0" type="xstring" value="dim_1"/>
+        <entry key="1" type="xstring" value="dim_2"/>
+        <entry key="2" type="xstring" value="dim_3"/>
+        <entry key="3" type="xstring" value="dim_4"/>
+        <entry key="4" type="xstring" value="dim_5"/>
+        <entry key="5" type="xstring" value="dim_6"/>
+        <entry key="6" type="xstring" value="dim_7"/>
+        <entry key="7" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
